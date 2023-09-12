@@ -1,0 +1,149 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8473288292559410396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Salto
+  m_EditorClassIdentifier: 
+  Path: event:/Salto
+  Guid:
+    Data1: -1913339766
+    Data2: 1337721281
+    Data3: -176771697
+    Data4: 833237195
+  Banks:
+  - {fileID: -7038056468835098947}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 156
+--- !u!114 &-7038056468835098947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../OneDrive/Documentos/FMOD Studio/dude/Build/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638301159019234154
+  FileSizes:
+  - Name: Desktop
+    Value: 871808
+  Exists: 1
+--- !u!114 &-1497969396971424096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: ../OneDrive/Documentos/FMOD Studio/dude/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638301159019244187
+  FileSizes:
+  - Name: Desktop
+    Value: 900
+  Exists: 1
+--- !u!114 &-202019726307456085
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/footstep Walk Game sound [RoyaltyFree]
+  m_EditorClassIdentifier: 
+  Path: event:/footstep Walk Game sound [RoyaltyFree]
+  Guid:
+    Data1: -1394913006
+    Data2: 1116014784
+    Data3: -491799409
+    Data4: 990892930
+  Banks:
+  - {fileID: -7038056468835098947}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1625
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: -1497969396971424096}
+  - {fileID: -7038056468835098947}
+  EditorEvents:
+  - {fileID: 5642812811810920824}
+  - {fileID: -8473288292559410396}
+  - {fileID: -202019726307456085}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: -7038056468835098947}
+  StringsBanks:
+  - {fileID: -1497969396971424096}
+  cacheTime: 638301159019244187
+  cacheVersion: 131607
+--- !u!114 &5642812811810920824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/A Midnight Walk on Planet Kelstar
+  m_EditorClassIdentifier: 
+  Path: event:/A Midnight Walk on Planet Kelstar
+  Guid:
+    Data1: -1775473102
+    Data2: 1201340504
+    Data3: -1186680917
+    Data4: -1073089118
+  Banks:
+  - {fileID: -7038056468835098947}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 66782
